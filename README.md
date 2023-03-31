@@ -26,7 +26,7 @@ By fulfilling all these objectives, it indicates that any given person, knowing 
 
 ## Testing setup consists of:
 * Lilygo TTGO T3_v1.6.1 (20210104) using a stock antenna and attached, via USB, to a Windows 10 machine. 
-* Lilygo TTGO T3_v1.6.1 (20210104) using a stock antenna and attached, via USB, to a Raspbeery Pi 4B. 
+* Lilygo TTGO T3_v1.6.1 (20210104) using a stock antenna and attached, via USB, to a Raspberry Pi 4B. 
 * Transmitting/receiving software on Lilygo units is reference implementation of RNode: https://github.com/markqvist/RNode_Firmware/blob/master/Python%20Module/Example.py
 * RTL-SDR v3 (Jan 2023) using a 1/2 wavelength dipole, attached to a Windows 10 machine.
 * SDR receiving software is SDRAngel https://github.com/f4exb/sdrangel
