@@ -17,8 +17,7 @@ This seems to broadly cover encryption, ciphers, and code words, but does not ap
 
 To demonstrate the status of the RNode/LoRa encoding as non-obscuring, the following objectives must be fulfilled:
 
-1. A broadcast must be made with unmodified RNode reference hardware and software. (Changing frequency bands, coding rate, spreading factor, and bandwidth is .
-2. acceptable)
+1. A broadcast must be made with unmodified RNode reference hardware and software. (Changing frequency bands, coding rate, spreading factor, and bandwidth is acceptable)
 3. A naive hardware and software combination must be able to receive this code.
 4. The payload of the transmission must be human readable and unmodified.
 5. No external knowledge, outside of frequency, bandwidth, coding rate, and spreading factor can be used to decode the message.
