@@ -17,10 +17,11 @@ This seems to broadly cover encryption, ciphers, and code words, but does not ap
 
 To demonstrate the status of the RNode/LoRa encoding as non-obscuring, the following objectives must be fulfilled:
 
-1. A broadcast must be made with unmodified RNode reference hardware and software. (Changing frequency bands, coding rate, spreading factor, and bandwidth are acceptable)
-2. A naive hardware and software combination must be able to receive this code.
-3. The payload of the transmission must be human readable and unmodified.
-4. No external knowledge, outside of frequency, bandwidth, coding rate, and spreading factor can be used to decode the message.
+1. A broadcast must be made with unmodified RNode reference hardware and software. (Changing frequency bands, coding rate, spreading factor, and bandwidth is .
+2. acceptable)
+3. A naive hardware and software combination must be able to receive this code.
+4. The payload of the transmission must be human readable and unmodified.
+5. No external knowledge, outside of frequency, bandwidth, coding rate, and spreading factor can be used to decode the message.
 
 By fulfilling all these objectives, it indicates that any given person, knowing of the signal's existance, can determine the meaning and content of the signal, and therefore the meaning is not obscured and would lead a reasonable person to think that it complies with §97.113(a)(4).
 
@@ -28,7 +29,7 @@ By fulfilling all these objectives, it indicates that any given person, knowing 
 * Lilygo TTGO T3_v1.6.1 (20210104) using a stock antenna and attached, via USB, to a Windows 10 machine. 
 * Lilygo TTGO T3_v1.6.1 (20210104) using a stock antenna and attached, via USB, to a Raspbeery Pi 4B. 
 * Transmitting/receiving software on Lilygo units is reference implementation of RNode: https://github.com/markqvist/RNode_Firmware/blob/master/Python%20Module/Example.py
-* RTL-SDR v3 using a 1/2 wavelength dipole, attached to a Windows 10 machine.
+* RTL-SDR v3 (Jan 2023) using a 1/2 wavelength dipole, attached to a Windows 10 machine.
 * SDR receiving software is SDRAngel https://github.com/f4exb/sdrangel
 
 ## Transmission script:
